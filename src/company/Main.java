@@ -1,6 +1,8 @@
 package company;
 
-public class Main {
+import org.w3c.dom.ls.LSOutput;
+
+public class Main<a> {
 
     public static void main(String[] args) {
 
@@ -45,6 +47,8 @@ public class Main {
         System.out.println(w);
 
         // 4 задание
+
+        System.out.println( 22%2 == 0 ? "Чётное" : "Нечетное");
 
 
     }
